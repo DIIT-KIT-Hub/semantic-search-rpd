@@ -1,0 +1,17 @@
+[project]
+name = "semantic-search-rpd"
+version = "0.1"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic>=2",
+    "pydantic-settings",
+    "chromadb",
+    "sentence-transformers",
+    "python-docx",
+    "pdfplumber",
+    "loguru",
+    "pytest",
+    "httpx",
+    "ruff"
+]
